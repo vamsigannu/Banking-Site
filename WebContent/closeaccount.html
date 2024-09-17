@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Insert title here</title>
+<link rel="stylesheet"  href="bank.css">
+<link rel="icon" href="image/logo.png"  type="image/icon">
+<script src="home.js"></script>
+<body>
+<div class="menu-bar">
+    <div class="meta">
+        <img src="image/logo.ico">
+         <h1> Bank Of One Piece</h1>
+    </div>
+    <div class="menur">
+        <a href="home.html">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#ourservices">Our Services</a>
+        <a href="newaccount.html">New Account</a>
+        <a href="balance.html">Balance</a>
+        <a href="deposit.html">Deposit</a>
+        <a href="withdrawal.html">Withdrawal</a>
+        <a href="transfer.html">Transfer </a>
+        <a href="closeaccount.html">Close Account</a>
+    </div>
+</div>
+<div class="reg">
+    <h2>Close Account</h2><br>
+    <form name="vamsi" method="post" action="close_account.jsp" onsubmit="return closeacc()">
+        <div class="row">
+        <label for="accountno">Account No</label>
+        <input type="text" id="accountno" placeholder="Account-no" name="accountno"required><br><br>
+        </div>
+        <div class="row">
+        <label for="username">Username</label>
+        <input type="text" id="username" placeholder="username" name="username"required><br><br>
+        </div>
+        <div class="row">
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="password" name="password"required><br><br> 
+        </div>   
+        <div class="button-container">
+        <button type="submit">Submit</button>        
+        <button type="reset">Clear</button>
+        </div>
+   </form>
+</div>
+</body>
+</html>
